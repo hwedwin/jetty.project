@@ -19,7 +19,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <build-support.version>1.4</build-support.version>
     <checkstyle.version>8.20</checkstyle.version>
-    <slf4j.version>1.8.0-beta2</slf4j.version>
+    <slf4j.version>1.8.0-beta4</slf4j.version>
     <log4j2.version>2.11.2</log4j2.version>
     <logback.version>1.3.0-alpha4</logback.version>
     <spring-version>5.1.1.RELEASE</spring-version>
@@ -576,7 +576,7 @@
             <attach>true</attach>
             <isOffline>true</isOffline>
             <excludePackageNames>com.*:org.slf4j*:org.mortbay*:*.jmh*:org.eclipse.jetty.embedded*:org.eclipse.jetty.example.asyncrest*:org.eclipse.jetty.test*</excludePackageNames>
-            <skippedModules>apache-jstl,jetty-osgi-alpn,infinispan-common,infinispan-embedded,infinispan-remote,infinispan-remote-query</skippedModules>
+            <skippedModules>apache-jstl,jetty-osgi-alpn,infinispan-common,infinispan-embedded,infinispan-embedded-query,infinispan-remote,infinispan-remote-query,jetty-plus,jetty-jndi,jetty-documentation,jetty-distribution,jetty-home,jetty-bom,jetty-all</skippedModules>
           </configuration>
         </plugin>
         <plugin>
