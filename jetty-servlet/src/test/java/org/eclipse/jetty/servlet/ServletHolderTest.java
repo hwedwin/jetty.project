@@ -20,10 +20,10 @@ package org.eclipse.jetty.servlet;
 
 import java.util.Collections;
 import java.util.Set;
-import javax.servlet.ServletRegistration;
-import javax.servlet.UnavailableException;
-import javax.servlet.http.HttpServlet;
 
+import jakarta.servlet.ServletRegistration;
+import jakarta.servlet.UnavailableException;
+import jakarta.servlet.http.HttpServlet;
 import org.eclipse.jetty.server.handler.ContextHandler;
 import org.eclipse.jetty.util.MultiException;
 import org.eclipse.jetty.util.log.StacklessLogging;

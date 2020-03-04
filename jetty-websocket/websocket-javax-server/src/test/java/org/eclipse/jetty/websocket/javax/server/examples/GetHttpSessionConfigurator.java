@@ -18,10 +18,11 @@
 
 package org.eclipse.jetty.websocket.javax.server.examples;
 
-import javax.servlet.http.HttpSession;
 import javax.websocket.HandshakeResponse;
 import javax.websocket.server.HandshakeRequest;
 import javax.websocket.server.ServerEndpointConfig;
+
+import jakarta.servlet.http.HttpSession;
 
 public class GetHttpSessionConfigurator extends ServerEndpointConfig.Configurator
 {

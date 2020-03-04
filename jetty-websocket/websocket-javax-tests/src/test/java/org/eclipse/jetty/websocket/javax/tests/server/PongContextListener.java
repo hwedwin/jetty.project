@@ -18,8 +18,6 @@
 
 package org.eclipse.jetty.websocket.javax.tests.server;
 
-import javax.servlet.ServletContextEvent;
-import javax.servlet.ServletContextListener;
 import javax.websocket.DeploymentException;
 import javax.websocket.HandshakeResponse;
 import javax.websocket.server.HandshakeRequest;
@@ -27,6 +25,8 @@ import javax.websocket.server.ServerContainer;
 import javax.websocket.server.ServerEndpointConfig;
 import javax.websocket.server.ServerEndpointConfig.Configurator;
 
+import jakarta.servlet.ServletContextEvent;
+import jakarta.servlet.ServletContextListener;
 import org.eclipse.jetty.websocket.javax.tests.server.sockets.pong.PongMessageEndpoint;
 
 public class PongContextListener implements ServletContextListener

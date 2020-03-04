@@ -19,9 +19,9 @@
 package org.eclipse.jetty.servlet;
 
 import java.io.IOException;
-import javax.servlet.ServletContext;
-import javax.servlet.UnavailableException;
 
+import jakarta.servlet.ServletContext;
+import jakarta.servlet.UnavailableException;
 import org.eclipse.jetty.server.handler.ContextHandler;
 import org.eclipse.jetty.util.Loader;
 import org.eclipse.jetty.util.annotation.ManagedAttribute;
